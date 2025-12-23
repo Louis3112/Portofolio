@@ -4,62 +4,64 @@ const signature = "/src/assets/about/signature.webp";
 
 const About = () => {
   return (
-    <section id="about" className="min-h-screen">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
-        
-        <div className="mb-12 md:mb-16 relative">
+    <section id="about" className="h-auto pb-24 scroll-mt-28">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">   
+        <div className="relative mb-8 md:mb-12">
           {/* Title */}
-          <h2 className="font-display font-black text-4xl md:text-5xl uppercase leading-tight relative z-10 w-full md:w-3/4">
+          <h2 className="relative z-10 w-full font-display text-4xl font-black uppercase leading-tight md:w-3/4 md:text-5xl">
             LET’S GET TO KNOW ME BETTER
           </h2>
-          <div className="absolute bottom-0 left-0 w-32 md:w-64 h-1 md:h-3 bg-neo-red -z-0 transform translate-y-2"></div>
+          <div className="w-2/5 md:w-1/4 h-3 bg-neo-red mt-2 mr-auto"></div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-            {/* Polaroid */}
-            <div className="lg:col-span-4 flex justify-center lg:justify-start">
-                <div className="relative bg-white p-4 pb-16 border-2 border-neo-black shadow-brutal transform -rotate-2 hover:rotate-0 transition-transform duration-300 w-full max-w-sm">
-                    <img 
-                        src={unesaLogo} 
-                        alt="UNESA Logo" 
-                        className="absolute -top-6 -right-6 w-24 h-auto z-20 drop-shadow-md hover:scale-110 transition-transform"
-                    />
-                    <div className="border-2 border-neo-black overflow-hidden transition-all duration-500">
-                        <img 
-                            src={polaroidPhoto} 
-                            alt="Formal Profile" 
-                            className="w-full h-auto object-cover"
-                        />
-                    </div>
-                    <div className="absolute bottom-2 left-0 w-full flex justify-center ">
-                        <img 
-                            src={signature} 
-                            alt="Signature" 
-                            className="h-20 w-auto opacity-90 transform transition-transform hover:scale-105"
-                        />
-                    </div>
+        <div className="grid grid-cols-1 items-start gap-12 lg:grid-cols-12">    
+          {/* Polaroid */}
+          <div className="flex justify-center lg:col-span-4 lg:justify-start">
+            <button 
+              type="button"
+              className="relative w-full max-w-sm -rotate-2 transform cursor-pointer border-2 border-neo-black bg-white p-4 pb-16 shadow-brutal transition-transform duration-300 hover:rotate-0 focus:rotate-0 focus:outline-none active:rotate-0"
+            >
+                <img 
+                  src={unesaLogo} 
+                  alt="UNESA Logo" 
+                  className="absolute -right-6 -top-6 z-20 h-auto w-24 drop-shadow-md transition-transform hover:scale-110"
+                />
+
+                <div className="overflow-hidden border-2 border-neo-black transition-all duration-500">
+                  <img 
+                    src={polaroidPhoto} 
+                    alt="Formal Profile" 
+                    className="h-auto w-full object-cover"
+                  />
                 </div>
-            </div>
 
-            <div className="lg:col-span-8 font-sans text-lg md:text-xl leading-relaxed text-neo-black space-y-6">
-                <p>
-                    I am an undergraduate IT from Surabaya State University (UNESA) with a <span className="font-bold">strong curiosity </span> 
-                    and specializing in <span className="font-bold text-neo-red">front-end development</span> with proven skills in 
-                    <span className="font-bold"> HTML, CSS, <span className="text-neo-red">JavaScript</span> (frameworks), 
-                    <span className="text-neo-red">TypeScript</span></span>, and <span className="font-bold text-neo-red">REST API integration</span>.
-                </p>
-                <p>
-                    <span className="font-bold">Experienced</span> in building responsive and <span className="font-bold">user-friendly web applications </span> 
-                    through academic projects, <span className="font-bold">freelance work</span>, and prior <span className="font-bold">internships</span>.
-                </p>
-                <p>
-                    Moreover, my foundational knowledge of <span className="font-bold text-neo-red">back-end</span> allows me to be an effective 
-                    <span className="font-bold"> collaborator</span> on a team. I am a dedicated and <span className="font-bold">quick learner</span>, 
-                    eager to <span className="font-bold">contribute</span> to a fast-paced team, apply my technical knowledge, 
-                    and deepen my skills in a <span className="font-bold">professional environment</span>.
-                </p>
-
-            </div>
+                <div className="absolute bottom-2 left-0 flex w-full justify-center">
+                  <img 
+                    src={signature} 
+                    alt="Signature" 
+                    className="h-20 w-auto transform opacity-90 transition-transform hover:scale-105"
+                    />
+                </div>
+            </button>
+          </div>
+          
+          {/* Paragraphs */}
+          <div className="space-y-6 font-sans text-lg text-justify indent-10 leading-relaxed text-neo-black lg:col-span-8 md:text-xl">
+            <p>
+              I am an undergraduate IT from Surabaya State University (UNESA) with a <span className="font-bold">strong curiosity </span> 
+              and specializing in <span className="font-bold text-neo-red">front-end development</span> with proven skills in 
+              <span className="font-bold"> HTML, CSS, <span className="text-neo-red">JavaScript</span> (frameworks), 
+              <span className="text-neo-red">TypeScript</span></span>, and <span className="font-bold text-neo-red">REST API integration</span>.
+              <span className="font-bold">Experienced</span> in building responsive and <span className="font-bold">user-friendly web applications </span> 
+              through academic projects, <span className="font-bold">freelance work</span>, and prior <span className="font-bold">internships</span>.
+            </p>
+            <p>
+              Moreover, my foundational knowledge of <span className="font-bold text-neo-red">back-end</span> allows me to be an effective 
+              <span className="font-bold"> collaborator</span> on a team. I am a dedicated and <span className="font-bold">quick learner</span>, 
+              eager to <span className="font-bold">contribute</span> to a fast-paced team, apply my technical knowledge, 
+              and deepen my skills in a <span className="font-bold">professional environment</span>.
+            </p>
+          </div>
 
         </div>
       </div>
