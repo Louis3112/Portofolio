@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
 import Hero from './sections/Hero';
+import About from './sections/About';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       {/* Main Content Sections */}
       <main>
         <Hero />
+        <About/>
         
         {/* Placeholder untuk bagian selanjutnya (nanti kita isi) */}
         {/* <Experience /> */}

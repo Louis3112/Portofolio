@@ -1,12 +1,12 @@
 import { TypeAnimation } from 'react-type-animation';
 
-const underlineScribble = "/src/assets/about/underline-scribble.png";
-const heroPhoto = "/src/assets/about/hero-photo.webp"; 
-const barcode = "/src/assets/about/barcode.png";
+const underlineScribble = "/src/assets/hero/underline-scribble.webp";
+const heroPhoto = "/src/assets/hero/hero-photo.webp"; 
+const barcode = "/src/assets/hero/barcode.webp";
 
 const Hero = () => {
   return (
-    <section id="about" className="min-h-screen py-24 overflow-hidden bg-neo-white">
+    <section id="hero" className="min-h-screen py-24 overflow-hidden bg-neo-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
             
         {/* Main Grid */}
