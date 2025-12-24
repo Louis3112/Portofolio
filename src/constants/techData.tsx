@@ -45,64 +45,64 @@ import PythonImg from "../assets/techstack/programming/python.png";
 import TypescriptImg from "../assets/techstack/programming/typescript.png";
 
 const TECH_STACK_DATA = [
-    {
-      category: "Programming Languages",
-      items: [
-        { name: "C++", src: CppImg, isImage: true },
-        { name: "Java", src: JavaImg, isImage: true },
-        { name: "JavaScript", src: JavascriptImg, isImage: true },
-        { name: "Python", src: PythonImg, isImage: true },
-        { name: "Typescript", src: TypescriptImg, isImage: true },
-      ]
-    },
-    {
-      category: "Frontend Development",
-      items: [
-        { name: "HTML5", src: HtmlImg, isImage: true },
-        { name: "CSS3", src: CssImg, isImage: true },
-        { name: "React", src: ReactImg, isImage: true },
-        { name: "React Router", src: ReactRouterImg, isImage: true },
-        { name: "Vite", src: ViteImg, isImage: true },
-        { name: "Tailwind CSS", src: TailwindImg, isImage: true },
-        { name: "Bootstrap", src: BootstrapImg, isImage: true },
-        { name: "ShadCN UI", src: ShadCnImg, isImage: true },
-        { name: "Axios", src: AxiosImg, isImage: true },
-        { name: "WordPress", src: WordpressImg, isImage: true },
-        { name: "Elementor", src: ElementorImg, isImage: true },
-        { name: "ESLint", src: EslintImg, isImage: true },
-      ]
-    },
-    {
-      category: "Backend & Database",
-      items: [
-        { name: "Node.js", src: NodeImg, isImage: true },
-        { name: "Hapi.js", src: HapiImg, isImage: true },
-        { name: "Laravel", src: LaravelImg, isImage: true },
-        { name: "PostgreSQL", src: PostgresImg, isImage: true },
-        { name: "MySQL", src: MySqlImg, isImage: true },
-        { name: "Redis", src: RedisImg, isImage: true },
-        { name: "RabbitMQ", src: RabbitMqImg, isImage: true },
-        { name: "Swagger", src: SwaggerImg, isImage: true },
-      ]
-    },
-    {
-      category: "Tools & Others",
-      items: [
-        { name: "Git", src: GitImg, isImage: true },
-        { name: "GitHub", src: GithubImg, isImage: true },
-        { name: "VS Code", src: VsCodeImg, isImage: true },
-        { name: "Postman", src: PostmanImg, isImage: true },
-        { name: "AWS", src: AwsImg, isImage: true },
-        { name: "Google Cloud", src: GoogleCloudImg, isImage: true },
-        { name: "Vercel", src: VercelImg, isImage: true },
-        { name: "Figma", src: FigmaImg, isImage: true },
-        { name: "Photoshop", src: PhotoshopImg, isImage: true },
-        { name: "Visily", src: VisilyImg, isImage: true },
-        { name: "Notion", src: NotionImg, isImage: true },
-        { name: "Obsidian", src: ObsidianImg, isImage: true },
-        { name: "Gemini AI", src: GeminiImg, isImage: true },
-      ]
-    },
-  ];
+  {
+    category: "Programming Languages",
+    items: [
+      { name: "C++", src: CppImg, isImage: true },
+      { name: "Java", src: JavaImg, isImage: true },
+      { name: "JavaScript", src: JavascriptImg, isImage: true },
+      { name: "Python", src: PythonImg, isImage: true },
+      { name: "Typescript", src: TypescriptImg, isImage: true },
+    ]
+  },
+  {
+    category: "Frontend Development",
+    items: [
+      { name: "Axios", src: AxiosImg, isImage: true },
+      { name: "Bootstrap", src: BootstrapImg, isImage: true },
+      { name: "CSS3", src: CssImg, isImage: true },
+      { name: "Elementor", src: ElementorImg, isImage: true },
+      { name: "ESLint", src: EslintImg, isImage: true },
+      { name: "HTML5", src: HtmlImg, isImage: true },
+      { name: "React", src: ReactImg, isImage: true },
+      { name: "React Router", src: ReactRouterImg, isImage: true },
+      { name: "ShadCN UI", src: ShadCnImg, isImage: true },
+      { name: "Tailwind CSS", src: TailwindImg, isImage: true },
+      { name: "Vite", src: ViteImg, isImage: true },
+      { name: "WordPress", src: WordpressImg, isImage: true },
+    ]
+  },
+  {
+    category: "Backend & Database",
+    items: [
+      { name: "Hapi.js", src: HapiImg, isImage: true },
+      { name: "Laravel", src: LaravelImg, isImage: true },
+      { name: "MySQL", src: MySqlImg, isImage: true },
+      { name: "Node.js", src: NodeImg, isImage: true },
+      { name: "PostgreSQL", src: PostgresImg, isImage: true },
+      { name: "RabbitMQ", src: RabbitMqImg, isImage: true },
+      { name: "Redis", src: RedisImg, isImage: true },
+      { name: "Swagger", src: SwaggerImg, isImage: true },
+    ]
+  },
+  {
+    category: "Tools & Others",
+    items: [
+      { name: "AWS", src: AwsImg, isImage: true },
+      { name: "Figma", src: FigmaImg, isImage: true },
+      { name: "Gemini AI", src: GeminiImg, isImage: true },
+      { name: "Git", src: GitImg, isImage: true },
+      { name: "GitHub", src: GithubImg, isImage: true },
+      { name: "Google Cloud", src: GoogleCloudImg, isImage: true },
+      { name: "Notion", src: NotionImg, isImage: true },
+      { name: "Obsidian", src: ObsidianImg, isImage: true },
+      { name: "Photoshop", src: PhotoshopImg, isImage: true },
+      { name: "Postman", src: PostmanImg, isImage: true },
+      { name: "Vercel", src: VercelImg, isImage: true },
+      { name: "Visily", src: VisilyImg, isImage: true },
+      { name: "VS Code", src: VsCodeImg, isImage: true },
+    ]
+  },
+];
 
 export default TECH_STACK_DATA;
