@@ -7,8 +7,7 @@ const barcode = "/src/assets/hero/barcode.webp";
 const Hero = () => {
   return (
     <section id="hero" className="relative h-auto overflow-hidden py-24 bg-neo-white">
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            
+      <div className="relative max-w-7xl mx-auto px-4">
         {/* Main Grid */}
         <div className="relative grid grid-cols-1 items-center lg:grid-cols-12">
 

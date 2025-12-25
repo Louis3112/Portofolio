@@ -3,13 +3,13 @@ import { FaLocationDot, FaLinkedin } from "react-icons/fa6";
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-24 bg-neo-white scroll-mt-28">
-      <div className="max-w-6xl mx-auto px-4">
+    <section id="experience" className="pb-24 scroll-mt-28">
+      <div className="max-w-7xl mx-auto px-4">
         
         {/* Header */}
         <div className="mb-12">
             <h2 className="font-display font-black text-left text-4xl uppercase md:text-5xl">
-                EXPERIENCE
+                EXPERIENCES
             </h2>
             <div className="w-2/5 md:w-1/4 h-3 bg-neo-red mt-2 mr-auto"></div>
         </div>
@@ -28,10 +28,10 @@ const Experience = () => {
                             {/* Card */}
                             <div className={`relative ml-12 w-full md:ml-0 md:w-[45%] ${isEven ? 'md:pr-8' : 'md:pl-8'}`}>  
                               <div className={`group relative flex flex-col gap-4 border-2 border-neo-black bg-white p-6 shadow-brutal transition-all duration-300 hover:-translate-y-1 hover:shadow-brutal-lg`}>                              
-                                <div className={`absolute -right-2 -top-4 rotate-2 border-2 border-neo-black  ${exp.color || 'bg-white'} px-3 py-1 font-mono text-xs font-bold text-white shadow-sm transition-transform group-hover:rotate-0`}>
+                                <div className={`absolute -right-2 -top-4 rotate-2 border-2 border-neo-black  ${exp.color || 'bg-neo-black'} px-3 py-1 font-mono text-xs font-bold text-white shadow-sm transition-transform group-hover:rotate-0`}>
                                   {exp.period}
                                 </div>
-                                    <div className="flex items-start gap-4 border-b-2 border-dashed border-gray-300 pb-4">
+                                    <div className="flex items-start gap-4 border-b-2 border-dashed border-neo-red pb-4">
                                         <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg border-2 border-neo-black bg-gray-50 p-1">
                                             <img src={exp.logo} alt={exp.company} className="h-full w-full object-contain" />
                                         </div>

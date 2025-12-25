@@ -22,20 +22,20 @@ import TailwindImg from "../assets/techstack/frontend/tailwind.png";
 import ViteImg from "../assets/techstack/frontend/vite.png";
 import WordpressImg from "../assets/techstack/frontend/wordPress.png"; 
 
-// OTHERS
-import AwsImg from "../assets/techstack/others/aws.png";
-import FigmaImg from "../assets/techstack/others/figma.png";
-import GeminiImg from "../assets/techstack/others/gemini.png";
-import GitImg from "../assets/techstack/others/git.png";
-import GithubImg from "../assets/techstack/others/github.png";
-import GoogleCloudImg from "../assets/techstack/others/google-cloud.png"
-import NotionImg from "../assets/techstack/others/notion.png";
-import ObsidianImg from "../assets/techstack/others/obsidian.png";
-import PhotoshopImg from "../assets/techstack/others/photoshop.png";
-import PostmanImg from "../assets/techstack/others/postman.png";
-import VercelImg from "../assets/techstack/others/vercel.png";
-import VisilyImg from "../assets/techstack/others/visily.png";
-import VsCodeImg from "../assets/techstack/others/vscode.png";
+// other
+import AwsImg from "../assets/techstack/other/aws.png";
+import FigmaImg from "../assets/techstack/other/figma.png";
+import GeminiImg from "../assets/techstack/other/gemini.png";
+import GitImg from "../assets/techstack/other/git.png";
+import GithubImg from "../assets/techstack/other/github.png";
+import GoogleCloudImg from "../assets/techstack/other/google-cloud.png"
+import NotionImg from "../assets/techstack/other/notion.png";
+import ObsidianImg from "../assets/techstack/other/obsidian.png";
+import PhotoshopImg from "../assets/techstack/other/photoshop.png";
+import PostmanImg from "../assets/techstack/other/postman.png";
+import VercelImg from "../assets/techstack/other/vercel.png";
+import VisilyImg from "../assets/techstack/other/visily.png";
+import VsCodeImg from "../assets/techstack/other/vscode.png";
 
 // PROGRAMMING
 import CppImg from "../assets/techstack/programming/cpp.png";
@@ -73,7 +73,7 @@ const TECH_STACK_DATA = [
     ]
   },
   {
-    category: "Backend & Database",
+    category: "Backend Development",
     items: [
       { name: "Hapi.js", src: HapiImg, isImage: true },
       { name: "Laravel", src: LaravelImg, isImage: true },

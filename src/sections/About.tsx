@@ -5,7 +5,7 @@ const signature = "/src/assets/about/signature.webp";
 const About = () => {
   return (
     <section id="about" className="h-auto pb-24 scroll-mt-28">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">   
+      <div className="mx-auto max-w-7xl px-4">   
         <div className="relative mb-8 md:mb-12">
           {/* Title */}
           <h2 className="relative z-10 w-full font-display text-4xl font-black uppercase leading-tight md:w-3/4 md:text-5xl">

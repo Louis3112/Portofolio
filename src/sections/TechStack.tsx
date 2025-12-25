@@ -13,9 +13,8 @@ const TechStack = () => {
   };
 
   return (
-    <section id="skills" className="py-24 bg-neo-white scroll-mt-28" >
-       <div className="max-w-6xl mx-auto px-4">
-          
+    <section className="pb-24 bg-neo-white" >
+       <div className="max-w-7xl mx-auto px-4">
           {/* Header */}
           <div className="mb-12">
             <h2 className="font-display font-black text-right text-4xl uppercase md:text-5xl">

@@ -1,8 +1,8 @@
-import GsaLogo from "../assets/experience/gsa/gsa.png"; 
-import AsahLogo from "../assets/experience/asah/asah.png";
-import UnesaLogo from "../assets/experience/asprak/unesa.png";
-import StudyfirstLogo from "../assets/experience/studyfirst/studyfirst.png";
-import PPNSLogo from "../assets/experience/ppns/ppns.png";
+import GsaLogo from "../assets/experiences/gsa.png"; 
+import AsahLogo from "../assets/experiences/asah.png";
+import UnesaLogo from "../assets/experiences/unesa.png";
+import StudyfirstLogo from "../assets/experiences/studyfirst.png";
+import PPNSLogo from "../assets/experiences/ppns.png";
 
 export const EXPERIENCE_DATA = [
   {
