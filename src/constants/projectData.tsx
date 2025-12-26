@@ -53,7 +53,7 @@ export const PROJECT_DATA = [
       "This project was created as my Final-Semester Project for Platform Oriented Programming course.",
     ],
     techStack: ["HTML", "Tailwind CSS", "React", "JavaScript", "GoLang", "Docker", "PostgreSQL", "Github", "VSCode"],
-    webLink: "",
+    webLink: "https://lumba-umbah.vercel.app/",
     githubLink: "https://github.com/Louis3112/lumbaUmbah",
     start: "May 2025",
     role: "Front-End Dev",
@@ -89,7 +89,7 @@ export const PROJECT_DATA = [
       "The website was created as my Mid-Semester Project to implement HTML, CSS (TypeScript), and JavaScript."
     ],
     techStack: ["HTML", "CSS", "JavaScript", "Github", "VSCode"],
-    webLink: "",
+    webLink: "https://depot-accord.vercel.app/",
     githubLink: "https://github.com/Louis3112/restaurant_web",
     start: "March 2025",
     role: "Front-End Dev",
@@ -107,7 +107,7 @@ export const PROJECT_DATA = [
       "This website provides an overview of tourist attractions in Jember and was created as part of my submission for the 'Belajar Dasar Pemrograman Web' certification by Dicoding."
     ],
     techStack: ["HTML", "CSS", "Github", "VSCode"], 
-    webLink: "",
+    webLink: "https://jember-tourist-web.vercel.app/",
     githubLink: "https://github.com/Louis3112/jember_tourist_web",
     start: "December 2023",
     role: "Front-End Dev",

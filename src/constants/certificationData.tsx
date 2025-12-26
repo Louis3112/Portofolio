@@ -3,6 +3,7 @@ import SoloLearnLogo from "../assets/certifications/sololearn.webp";
 import DQLabLogo from "../assets/certifications/dqlab.png";
 import GoogleLogo from "../assets/certifications/google.webp";
 import GSALogo from "../assets/experiences/gsa.png";
+import AWSLogo from "../assets/certifications/aws.png";
 
 export const CERTIFICATION_DATA = [
   {
@@ -191,9 +192,9 @@ export const CERTIFICATION_DATA = [
     title: "Cloud Essential Knowledge Badge Assessment",
     issuer: "Amazon Web Services (AWS)",
     date: "July 2024",
-    credentialId: "AWS-CE-2024", 
+    credentialId: "-", 
     link: "https://skillbuilder.aws/learn/63URRERNTS/cloud-essentials-knowledge-badge-assessment/VYB4663QV9",
-    logo: DicodingLogo,
+    logo: AWSLogo,
   },
   {
     id: "cert-05",
