@@ -21,7 +21,6 @@ interface ProjectItemProps {
   };
 }
 
-// Helper Functions (Dipindah ke sini karena hanya dipakai oleh Item ini)
 const getTechIcon = (techName: string) => {
   const iconSrc = TECH_ICONS[techName];
   if (iconSrc) {

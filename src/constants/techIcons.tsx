@@ -18,7 +18,7 @@ import ShadcnIcon from '../assets/techstack/frontend/shadCN.png';
 import OllamaIcon from '../assets/techstack/backend/ollama.png';
 import PostmanIcon from "../assets/techstack/other/postman.png";
 import SwaggerIcon from "../assets/techstack/backend/swagger.png";
-import GithubIcon from "../assets/techStack/other/github.png";
+import GithubIcon from "../assets/techstack/other/github.png";
 import VSCodeIcon from "../assets/techstack/other/vscode.png";
 export const TECH_ICONS: Record<string, string> = {
   "HTML": HtmlIcon,

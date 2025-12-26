@@ -148,55 +148,46 @@ const Hero = () => {
                   </div> 
               </BrutalPop>
 
- {/* Interactive Hint */}
-<BrutalPop delay={1.0}>
-    <div className={`
-        group relative flex flex-row items-center gap-3 
-        border-2 border-neo-black bg-yellow-300 px-4 py-2 
-        shadow-brutal transition-all duration-200
-        hover:-translate-y-1 hover:shadow-brutal-lg cursor-help
-    `}>
-        
-        {/* --- ISI TOMBOL KUNING --- */}
-        <div className="animate-bounce">
-            <FaMousePointer className="text-neo-black text-lg" />
-        </div>
+              {/* Interactive Hint */}
+              <BrutalPop delay={1.0}>
+                  <div className={`
+                      group relative flex flex-row items-center gap-3 
+                      border-2 border-neo-black bg-neo-white px-4 py-2 
+                      shadow-brutal transition-all duration-200
+                      hover:-translate-y-1 hover:shadow-brutal-lg cursor-help
+                  `}>
+                      <div className="animate-bounce">
+                          <FaMousePointer className="text-neo-black text-lg" />
+                      </div>
 
-        <div className="flex flex-col">
-            <span className="font-mono text-[10px] font-bold uppercase leading-none text-neo-black/70">
-                SYSTEM_HINT:
-            </span>
-            <span className="font-mono text-xs font-bold uppercase text-neo-black md:text-sm">
-                Interactive Elements
-            </span>
-        </div>
+                      <div className="flex flex-col">
+                          <span className="font-mono text-[10px] font-bold uppercase leading-none text-neo-black/70">
+                              SYSTEM_HINT:
+                          </span>
+                          <span className="font-mono text-xs font-bold uppercase text-neo-black md:text-sm">
+                              Interactive Elements
+                          </span>
+                      </div>
 
-        {/* --- B. BAGIAN NOTIFIKASI (TOOLTIP) - CLEAN VERSION --- */}
-        {/* Posisi: Absolute di BAWAH tombol (top-full) 
-            Align: Tengah Horizontal (left-1/2 -translate-x-1/2)
-            Animasi: Geser vertikal (-translate-y-2 ke 0)
-        */}
-        <div className={`
-            absolute top-full left-3/4 -translate-x-1/2 mt-3 w-max
-            pointer-events-none opacity-0 transition-all duration-300 ease-out
-            group-hover:opacity-100 group-hover:translate-y-0
-            -translate-y-2 z-50
-        `}>
-            {/* Desain Kotak Putih */}
-            <div className="relative border-2 border-neo-black bg-white px-3 py-2 shadow-brutal">
-                
-                {/* Segitiga panah kecil (Menghadap ke ATAS) */}
-                <div className="absolute -top-2 left-1/2 h-3 w-3 -translate-x-1/2 rotate-45 border-t-2 border-l-2 border-neo-black bg-white"></div>
-                
-                <p className="font-mono text-xs font-bold text-neo-black whitespace-nowrap">
-                    Try to hover or click some elements!
-                </p>
-            </div>
-        </div>
+                      <div className={`
+                          absolute top-full left-3/4 -translate-x-1/2 mt-3 w-max
+                          pointer-events-none opacity-0 transition-all duration-300 ease-out
+                          group-hover:opacity-100 group-hover:translate-y-0
+                          -translate-y-2 z-50
+                      `}>
+                          {/* Hover Box */}
+                          <div className="relative border-2 border-neo-black bg-white px-3 py-2 shadow-brutal">
+                              
+                              <div className="absolute -top-2 left-1/2 h-3 w-3 -translate-x-1/2 rotate-45 border-t-2 border-l-2 border-neo-black bg-white"></div>
+                              
+                              <p className="font-mono text-xs font-bold text-neo-black whitespace-nowrap">
+                                  Try to hover or click some elements!
+                              </p>
+                          </div>
+                      </div>
 
-    </div>
-</BrutalPop>
-
+                  </div>
+              </BrutalPop>
           </div>
 
         {/* Barcode */} 
