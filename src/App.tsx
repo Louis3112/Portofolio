@@ -4,12 +4,14 @@ import Navbar from './components/Navbar';
 import Hero from './sections/Hero';
 import About from './sections/About';
 import TechStack from './sections/TechStack';
-import Experience from './sections/Experience';
-import Certification from './sections/Certification'; 
+import Experiences from './sections/Experiences';
+import Certifications from './sections/Certifications'; 
 import AllCertifications from './sections/AllCertifications';
-import Projects from './sections/Project';
+import Projects from './sections/Projects';
+import ContactMe from './sections/ContactMe';
+import Footer from './components/Footer';
 
-function App() {
+  function App() {
   const { hash } = useLocation();
 
   useEffect(() => {
@@ -29,21 +31,22 @@ function App() {
       <Routes>=
         <Route path="/" element={
           <main>
-            <Hero />
-            <About />
-            <TechStack />
-            <Experience />
-            <Certification /> 
-            <Projects />
+            <Hero/>
+            <About/>
+            <TechStack/>
+            <Experiences/>
+            <Certifications/> 
+            <Projects/>
+            <ContactMe/>
           </main>
         } />
         <Route path="/all-certifications" element={
             <main>
-                <AllCertifications />
+                <AllCertifications/>
             </main>
         } />
       </Routes>
-
+      <Footer/>
     </div>
   );
 }

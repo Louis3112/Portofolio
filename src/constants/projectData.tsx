@@ -34,7 +34,7 @@ export const PROJECT_DATA = [
       "'Himpunan Mahasiswa Teknik Perpipaan' (HMTP) is one of association that exist in 'Politeknik Perkapalan Negeri Surabaya (PPNS)'",
       "This company profile consists of explanation of their major and their association, news and alumni from Pipeline Engineering major",
     ],
-    techStack: ["HTML", "Tailwind CSS", "React", "Laravel", "MySQL", "Github", "VSCode"],
+    techStack: ["Tailwind CSS", "React", "Laravel", "MySQL", "Github", "VSCode"],
     webLink: "https://hmtppns.my.id/",
     githubLink: "",
     start: "June 2025",

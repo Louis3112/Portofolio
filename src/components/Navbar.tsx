@@ -3,6 +3,8 @@ import { useState, useEffect } from 'react';
 import { HiMenu, HiX } from 'react-icons/hi';
 import { FaFile } from 'react-icons/fa';
 import { Link, useLocation } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import Button from './Button';
 
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState("hero");
@@ -53,69 +55,83 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-neo-gray/20 backdrop-blur-sm border-b-2 border-neo-black z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
-          <Link to="/" className="flex-shrink-0 flex items-center cursor-pointer">
-            <span className="font-mono text-3xl">
-              HELLO,<span className="font-bold text-neo-red">WORLD!</span>
-            </span>
-          </Link>
-          <div className="hidden md:flex space-x-8 items-center">
-            {navItems.map((item) => (
-              <Link
-                key={item.name}
-                to={item.href} 
-                className={getLinkClass(item.href)}
-              >
-                {item.name}
+    <motion.nav 
+        initial={{ y: -100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 1.0, ease: "easeOut" }}
+        className="fixed top-0 left-0 w-full bg-neo-white/20 backdrop-blur-sm border-b-2 border-neo-black z-50"
+      >
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex justify-between items-center h-20">
+              <Link to="/" className="flex-shrink-0 flex items-center cursor-pointer">
+                <span className="font-mono text-3xl">
+                  HELLO,<span className="font-bold text-neo-red">WORLD!</span>
+                </span>
               </Link>
-            ))}
-            
-            <a 
-              href="/cv.pdf" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="flex items-center gap-2 font-mono text-sm border-2 border-neo-black px-3 py-1 hover:bg-neo-black hover:text-neo-white transition-colors"
-            >
-              [ DOWNLOAD_CV.PDF <FaFile/> ]
-            </a>
+              <div className="hidden md:flex space-x-8 items-center">
+                {navItems.map((item) => (
+                  <Link
+                    key={item.name}
+                    to={item.href} 
+                    className={getLinkClass(item.href)}
+                  >
+                    {item.name}
+                  </Link>
+                ))}
+                
+                <Button 
+                    href="/CV_Cornelius_Louis_Nathan.pdf" 
+                    download="Cornelius_Louis_CV.pdf"
+                    variant="outline"
+                    className="font-mono text-sm px-4 py-1 whitespace-nowrap" 
+                >
+                  <span className="flex items-center gap-2">
+                      [ DOWNLOAD_CV.PDF <FaFile /> ]
+                  </span>
+                </Button>
+              </div>
+
+              {/* Mobile Menu Button */}
+              <div className="md:hidden flex items-center">
+                <button onClick={() => setIsOpen(!isOpen)} className="text-neo-black hover:text-neo-red">
+                  {isOpen ? <HiX size={32} /> : <HiMenu size={32} />}
+                </button>
+              </div>
+            </div>
           </div>
 
-          {/* Mobile Menu Button */}
-          <div className="md:hidden flex items-center">
-            <button onClick={() => setIsOpen(!isOpen)} className="text-neo-black hover:text-neo-red">
-              {isOpen ? <HiX size={32} /> : <HiMenu size={32} />}
-            </button>
-          </div>
-        </div>
-      </div>
-
-      {/* Mobile Menu Dropdown */}
-      {isOpen && (
-        <div className="md:hidden bg-neo-white border-b-4 border-neo-black absolute w-full shadow-brutal">
-          <div className="px-2 pt-2 pb-6 space-y-2 sm:px-3 flex flex-col items-center">
-            {navItems.map((item) => (
-              <Link
-                key={item.name}
-                to={item.href}
-                className={`block px-3 py-2 font-mono text-xl ${
-                    activeSection === item.href.replace('/#', '') && location.pathname === '/' 
-                    ? 'text-neo-red font-bold' 
-                    : 'text-neo-black'
-                } hover:bg-neo-red hover:text-neo-white w-full text-center`}
-                onClick={() => setIsOpen(false)}
-              >
-                {item.name}
-              </Link>
-            ))}
-             <a href="/cv.pdf" className="mt-4 flex justify-center items-center gap-2 font-mono text-sm border-2 border-neo-black px-3 py-2 bg-white hover:bg-neo-black hover:text-neo-white transition-colors">
-              [ DOWNLOAD_CV.PDF <FaFile/> ]
-            </a>
-          </div>
-        </div>
-      )}
-    </nav>
+          {/* Mobile Menu Dropdown */}
+          {isOpen && (
+            <div className="md:hidden bg-neo-white border-b-4 border-neo-black absolute w-full shadow-brutal">
+              <div className="px-2 pt-2 pb-6 space-y-2 sm:px-3 flex flex-col items-center">
+                {navItems.map((item) => (
+                  <Link
+                    key={item.name}
+                    to={item.href}
+                    className={`block px-3 py-2 font-mono text-xl ${
+                        activeSection === item.href.replace('/#', '') && location.pathname === '/' 
+                        ? 'text-neo-red font-bold' 
+                        : 'text-neo-black'
+                    } hover:bg-neo-red hover:text-neo-white w-full text-center`}
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {item.name}
+                  </Link>
+                ))}
+                <Button 
+                  href="/CV_Cornelius_Louis_Nathan.pdf"
+                  download="Cornelius_Louis_CV.pdf"
+                  variant="outline"
+                  className="mt-4 font-mono text-sm"
+                >
+                  <span className="flex items-center gap-2">
+                      [ DOWNLOAD_CV.PDF <FaFile /> ]
+                  </span>   
+                </Button>
+              </div>
+            </div>
+          )}
+    </motion.nav>
   );
 };
 
