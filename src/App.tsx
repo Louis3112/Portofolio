@@ -2,7 +2,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './sections/Hero';
-import About from './sections/About';
+import AboutMe from './sections/AboutMe';
 import TechStack from './sections/TechStack';
 import Experiences from './sections/Experiences';
 import Certifications from './sections/Certifications'; 
@@ -32,7 +32,7 @@ import Footer from './components/Footer';
         <Route path="/" element={
           <main>
             <Hero/>
-            <About/>
+            <AboutMe/>
             <TechStack/>
             <Experiences/>
             <Certifications/> 

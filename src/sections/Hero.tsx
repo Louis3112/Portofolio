@@ -3,9 +3,9 @@ import { FaMousePointer } from 'react-icons/fa';
 import { Reveal } from "../animate/Reveal";
 import { BrutalPop } from '../animate/BrutalPop';
 
-const underlineScribble = "/src/assets/hero/underline-scribble.webp";
-const heroPhoto = "/src/assets/hero/hero-photo.webp"; 
-const barcode = "/src/assets/hero/barcode.webp";
+const underlineScribble = "/images/hero/underline-scribble.webp";
+const heroPhoto = "/images/hero/hero-photo.webp"; 
+const barcode = "/images/hero/barcode.webp";
 
 const Hero = () => {
   return (

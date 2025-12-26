@@ -1,10 +1,10 @@
 import { GlitchSlide } from '../animate/GlitchSide';
 import { BrutalPop } from '../animate/BrutalPop';
-const polaroidPhoto = "/src/assets/about/polaroid-photo.webp"; 
-const unesaLogo = "/src/assets/about/logo-unesa.webp";        
-const signature = "/src/assets/about/signature.webp";       
+const polaroidPhoto = "/images/about/polaroid-photo.webp"; 
+const unesaLogo = "/images/about/logo-unesa.webp";        
+const signature = "/images/about/signature.webp";       
 
-const About = () => {
+const AboutMe = () => {
   return (
     <section id="about" className="h-auto overflow-hidden pb-24 scroll-mt-28 ">
       <div className="mx-auto max-w-7xl px-4">   
@@ -102,4 +102,4 @@ const About = () => {
   )
 }
 
-export default About;
+export default AboutMe;
