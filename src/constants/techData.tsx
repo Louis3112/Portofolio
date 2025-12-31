@@ -1,7 +1,8 @@
-  // BACKEND
+// BACKEND
 import HapiImg from "../assets/techstack/backend/hapi.png";
 import LaravelImg from "../assets/techstack/backend/laravel.png";
-import MySqlImg from "../assets/techstack/backend/mySQL.png";      
+import MongoImg from "../assets/techstack/backend/mongodb.png";  
+import MySqlImg from "../assets/techstack/backend/mySQL.png";  
 import NodeImg from "../assets/techstack/backend/node.png";       
 import PostgresImg from "../assets/techstack/backend/postgreSQL.png"; 
 import RabbitMqImg from "../assets/techstack/backend/rabbitMQ.png";  
@@ -15,6 +16,7 @@ import CssImg from "../assets/techstack/frontend/css.png";
 import ElementorImg from "../assets/techstack/frontend/elementor.png";
 import EslintImg from "../assets/techstack/frontend/eslint.png";     
 import HtmlImg from "../assets/techstack/frontend/html.png";
+import FramerImg from "../assets/techstack/frontend/framer.png";
 import ReactRouterImg from "../assets/techstack/frontend/react-router.png";
 import ReactImg from "../assets/techstack/frontend/react.png";
 import ShadCnImg from "../assets/techstack/frontend/shadCN.png";       
@@ -63,6 +65,7 @@ const TECH_STACK_DATA = [
       { name: "CSS3", src: CssImg, isImage: true },
       { name: "Elementor", src: ElementorImg, isImage: true },
       { name: "ESLint", src: EslintImg, isImage: true },
+      { name: "Framer", src: FramerImg, isImage: true },
       { name: "HTML5", src: HtmlImg, isImage: true },
       { name: "React", src: ReactImg, isImage: true },
       { name: "React Router", src: ReactRouterImg, isImage: true },
@@ -77,6 +80,7 @@ const TECH_STACK_DATA = [
     items: [
       { name: "Hapi.js", src: HapiImg, isImage: true },
       { name: "Laravel", src: LaravelImg, isImage: true },
+      { name: "MongoDB", src: MongoImg, isImage: true},
       { name: "MySQL", src: MySqlImg, isImage: true },
       { name: "Node.js", src: NodeImg, isImage: true },
       { name: "PostgreSQL", src: PostgresImg, isImage: true },

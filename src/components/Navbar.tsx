@@ -81,7 +81,7 @@ const Navbar = () => {
                 
                 <Button 
                     href="/CV_Cornelius_Louis_Nathan.pdf" 
-                    download="Cornelius_Louis_CV.pdf"
+                    download="CV Cornelius Louis Nathan.pdf"
                     variant="outline"
                     className="font-mono text-sm px-4 py-1 whitespace-nowrap" 
                 >
