@@ -41,14 +41,13 @@ import VercelImg from "../assets/techstack/other/vercel.png";
 import VisilyImg from "../assets/techstack/other/visily.png";
 import VsCodeImg from "../assets/techstack/other/vscode.png";
 
-// PROGRAMMING LANGUAGES
+// PROGRAMMING
 import CppImg from "../assets/techstack/programming/cpp.png";
 import JavaImg from "../assets/techstack/programming/java.png";
 import JavascriptImg from "../assets/techstack/programming/javascript.png";
 import PythonImg from "../assets/techstack/programming/python.png";
-import PHPImg from "../assets/techstack/programming/php.png";
 import TypescriptImg from "../assets/techstack/programming/typescript.png";
-
+import PHPImg from "../assets/techstack/programming/php.png";
 
 const TECH_STACK_DATA = [
   {
