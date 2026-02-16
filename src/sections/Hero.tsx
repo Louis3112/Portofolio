@@ -92,6 +92,7 @@ const Hero = () => {
                       <span className="inline after:text-neo-black after:content-[';']">
                         <TypeAnimation
                           sequence={[
+                            '"HCIS Developer Back-end intern Citilink"', 5000,
                             '"ex ASAH Cohort React & Back-End 2025"', 3000,          
                             '"ex Study First Remote Intern"', 3000,        
                             '"ex Google Student Ambassador 2025"', 3000,      

@@ -14,11 +14,12 @@ export const PROJECT_DATA = [
     color: "blue",
     description: [
       "It is a formative assessments based on AI by managing questions and measuring student understanding.",
-      "Built as a collaborative team effort, this project serves as our final assignment for the Project Asah program led by Dicoding."
+      "Built as a collaborative team effort, this project serves as our final assignment for the Project Asah program led by Dicoding.",
+      "The project has won 12% 'Best Capstone Project' for use case DC-02 LearnCheck! Formative Assessment Powered with AI and reached highest judging score in Best Capstone Judging Session"
     ],
     techStack: ["TypeScript", "React", "Tailwind CSS", "Vite", "Shadcn.ui", "Express.js", "Node.js", "PostgreSQL", "Postman", "Swagger", "Github", "VSCode"],
-    webLink: "https://www.ditanyain.web.id/",
-    githubLink: "",
+    webLink: "https://lms.ditanyain.web.id/",
+    githubLink: "https://github.com/Ditanyain",
     start: "September 2025",
     role: "Front-End Dev",
     teamSize: 4,
@@ -46,7 +47,7 @@ export const PROJECT_DATA = [
     id: "proj-04",
     title: "Lumbah Umbah",
     image: LumbahImg,
-    status: "OFFLINE",
+    status: "LIVE: ONLINE",
     color: "light-blue",
     description: [
       "Lumba Umbah is a laundry service website that offers laundry by weight. The name Lumba Umbah is derived from the Javanese phrase 'umbah-umbah', which means washing clothes.",
@@ -82,7 +83,7 @@ export const PROJECT_DATA = [
     id: "proj-02",
     title: "Depot Accord",
     image: DepotAccordImg,
-    status: "OFFLINE",
+    status: "LIVE: ONLINE",
     color: "red",
     description: [
       "Depot Accord is a simple restaurant website inspired by my parents small Chinese street-side eatery.",
@@ -100,7 +101,7 @@ export const PROJECT_DATA = [
     id: "proj-01", 
     title: "Jember Tourist Web",
     image: JemberImg,
-    status: "OFFLINE",
+    status: "LIVE: ONLINE",
     color: "purple",
     description: [
       "Jember Tourist Web is my first web development project built using basic HTML and CSS.",

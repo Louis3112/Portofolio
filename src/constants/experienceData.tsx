@@ -30,8 +30,8 @@ export const EXPERIENCE_DATA = [
     description: [
       "Learned, developed and implemented full-stack JavaScript applications.",
       "Developing scalable REST APIs using Hapi.js and integrating them with React.js front-end interfaces.",
-      "Honed key professional soft skills, including teamwork, communications, and productivity.",
-      "Collaborated in a team environment to successfully develop and deliver a capstone project."
+      "Collaborated in a team environment to successfully develop and deliver 'Ditanyain', our capstone project.",
+      "Received 'Best Capstone Project' for use case DC-02 LearnCheck! Formative Assessment Powered with AI."
     ],
     link:"https://www.linkedin.com/in/louisnath/details/experience/",
   },

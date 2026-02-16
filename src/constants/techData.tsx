@@ -1,4 +1,5 @@
 // BACKEND
+import DockerImg from "../assets/techstack/backend/docker.png";
 import HapiImg from "../assets/techstack/backend/hapi.png";
 import LaravelImg from "../assets/techstack/backend/laravel.png";
 import MongoImg from "../assets/techstack/backend/mongodb.png";  
@@ -26,6 +27,7 @@ import WordpressImg from "../assets/techstack/frontend/wordPress.png";
 
 // other
 import AwsImg from "../assets/techstack/other/aws.png";
+import DBeaver from "../assets/techstack/other/dbeaver.png";
 import FigmaImg from "../assets/techstack/other/figma.png";
 import GeminiImg from "../assets/techstack/other/gemini.png";
 import GitImg from "../assets/techstack/other/git.png";
@@ -44,7 +46,9 @@ import CppImg from "../assets/techstack/programming/cpp.png";
 import JavaImg from "../assets/techstack/programming/java.png";
 import JavascriptImg from "../assets/techstack/programming/javascript.png";
 import PythonImg from "../assets/techstack/programming/python.png";
+import PHPImg from "../assets/techstack/programming/php.png";
 import TypescriptImg from "../assets/techstack/programming/typescript.png";
+
 
 const TECH_STACK_DATA = [
   {
@@ -54,6 +58,7 @@ const TECH_STACK_DATA = [
       { name: "Java", src: JavaImg, isImage: true },
       { name: "JavaScript", src: JavascriptImg, isImage: true },
       { name: "Python", src: PythonImg, isImage: true },
+      { name: "PHP", src: PHPImg, isImage: true },
       { name: "Typescript", src: TypescriptImg, isImage: true },
     ]
   },
@@ -78,6 +83,7 @@ const TECH_STACK_DATA = [
   {
     category: "Backend Development",
     items: [
+      { name: "Docker", src: DockerImg, isImage: true },
       { name: "Hapi.js", src: HapiImg, isImage: true },
       { name: "Laravel", src: LaravelImg, isImage: true },
       { name: "MongoDB", src: MongoImg, isImage: true},
@@ -93,6 +99,7 @@ const TECH_STACK_DATA = [
     category: "Tools & Others",
     items: [
       { name: "AWS", src: AwsImg, isImage: true },
+      { name: "Dbeaver", src: DBeaver, isImage: true },
       { name: "Figma", src: FigmaImg, isImage: true },
       { name: "Gemini AI", src: GeminiImg, isImage: true },
       { name: "Git", src: GitImg, isImage: true },
