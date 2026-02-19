@@ -11,10 +11,26 @@ interface ExperienceItemProps {
     period: string;
     description: string[];
     link?: string;
+    bgColor?: string;
     color?: string;
   };
   isEven: boolean;
 }
+
+const getHoverShadow = (color?: string) => {
+  switch (color) {
+    case 'blue': return 'hover:drop-shadow-[12px_12px_0px_#2563EB]'; 
+    case 'light-blue': return 'hover:drop-shadow-[12px_12px_0px_#4A7CED]';
+    case 'dark-blue': return 'hover:drop-shadow-[12px_12px_0px_#1E3A8A]';
+    case 'green': return 'hover:drop-shadow-[12px_12px_0px_#199E2C]'; 
+    case 'yellow': return 'hover:drop-shadow-[12px_12px_0px_#F0B22E]'; 
+    case 'orange': return 'hover:drop-shadow-[12px_12px_0px_#F97316]'; 
+    case 'purple': return 'hover:drop-shadow-[12px_12px_0px_#9333EA]'; 
+    case 'red': return 'hover:drop-shadow-[12px_12px_0px_#EF4444]';
+    case 'teal': return 'hover:drop-shadow-[12px_12px_0px_#048C7F]';
+    default: return 'hover:drop-shadow-[12px_12px_0px_#D30000]';
+  }
+};
 
 const ExperienceItem: React.FC<ExperienceItemProps> = ({ data, isEven }) => {
   return (
@@ -24,9 +40,11 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({ data, isEven }) => {
       <div className="absolute left-4 z-10 h-6 w-6 -translate-x-1/2 rounded-full border-4 border-white bg-neo-black shadow-md md:left-1/2"></div>
 
       <div className={`relative ml-12 w-full md:ml-0 md:w-[45%] ${isEven ? 'md:pr-8' : 'md:pl-8'}`}>        
-        <div className= {`group relative flex flex-col gap-4 
+        <div 
+          style={{ '--dynamic-hover': data.color || '#14532d' } as React.CSSProperties}
+          className= {`group relative flex flex-col gap-4 
           border-2 border-neo-black bg-white p-6 shadow-brutal 
-          transition-all duration-300 hover:-translate-y-1 hover:shadow-brutal-lg
+          transition-all duration-300 hover:-translate-y-1 ${getHoverShadow(data.color)} 
         `}>
           
           {/* Floating Badge */}
@@ -35,13 +53,13 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({ data, isEven }) => {
             border-2 border-neo-black px-3 py-1 
             font-mono text-xs font-bold text-white shadow-sm 
             transition-transform group-hover:rotate-0
-            ${data.color || 'bg-neo-black'}
+            ${data.bgColor || 'bg-neo-black'}
           `}>
             {data.period}
           </div>
 
           {/* Card Header */}
-          <div className="flex items-start gap-4 border-b-2 border-dashed border-neo-red pb-4">
+          <div className={`flex items-start gap-4 border-b-2 border-dashed pb-4`}>
             
             {/* Logo  */}
             <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg border-2 border-neo-black bg-gray-50 p-1">
