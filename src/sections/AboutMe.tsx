@@ -79,7 +79,7 @@ const AboutMe = () => {
               <p>
                 I am an IT undergraduate from Surabaya State University (UNESA) with a <span className="font-bold">strong curiosity </span> 
                 and specializing in <span className="font-bold text-neo-red">full-stack development</span> with proven skills in 
-                <span className="font-bold text-neo-red">React.js, Node.js, PHP (Laravel), andREST API integration</span>
+                <span className="font-bold text-neo-red">React.js, Node.js, PHP (Laravel), and REST API integration</span>
 
                 <span className="font-bold"> Experienced</span> in building responsive and <span className="font-bold">user-friendly web applications </span> 
                 through academic projects, <span className="font-bold">freelance work</span>, and prior <span className="font-bold">internships</span>.
@@ -88,7 +88,7 @@ const AboutMe = () => {
 
             <GlitchSlide direction='right'>
                 <p>
-                Moreover, my comprehensive understanding of <span className="font-bold text-neo-red">both front-end and back-end architecture</span> allows me to be an effective 
+                Moreover, my comprehensive understanding of <span className="font-bold text-neo-red">both Front-End and Back-End architecture</span> allows me to be an effective 
                 <span className="font-bold"> collaborator</span> on a team. I am a dedicated and <span className="font-bold">quick learner</span>, 
                 eager to <span className="font-bold">contribute</span> to a fast-paced team, apply my technical knowledge, 
                 and deepen my skills in a <span className="font-bold">professional environment</span>.

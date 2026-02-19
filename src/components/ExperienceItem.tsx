@@ -20,7 +20,7 @@ interface ExperienceItemProps {
 const getHoverShadow = (color?: string) => {
   switch (color) {
     case 'blue': return 'hover:drop-shadow-[12px_12px_0px_#2563EB]'; 
-    case 'light-blue': return 'hover:drop-shadow-[12px_12px_0px_#4A7CED]';
+    case 'light-blue': return 'hover:drop-shadow-[12px_12px_0px_#4F85FF]';
     case 'dark-blue': return 'hover:drop-shadow-[12px_12px_0px_#1E3A8A]';
     case 'green': return 'hover:drop-shadow-[12px_12px_0px_#199E2C]'; 
     case 'yellow': return 'hover:drop-shadow-[12px_12px_0px_#F0B22E]'; 
