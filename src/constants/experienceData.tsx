@@ -15,9 +15,9 @@ export const EXPERIENCE_DATA = [
     bgColor: "bg-green-600",
     color: "green",
     description: [
-      "Leveraged full Google Workspace suite to maximize productivity.",
-      "Conducted local seminars to educate peers on AI literacy and applications.",
-      "Developed and executed social media campaigns about benefit and usage of Gemini."
+      "Assist in developing back-end services for Human Capital Information Systems (HCIS) using PHP (Laravel)",
+      "Enhance system architecture by applying the repository-service pattern to improve code maintainability",
+      "Collaborate with front-end to integrate RESTful APIs into internal HR applications",
     ],
     link:"https://www.linkedin.com/in/louisnath/details/experience/",
   },
