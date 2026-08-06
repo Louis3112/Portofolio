@@ -77,24 +77,27 @@ const AboutMe = () => {
           `}>
             <GlitchSlide direction='left'>
               <p>
-                I am an IT undergraduate from Surabaya State University (UNESA) with a <span className="font-bold">strong curiosity </span> 
-                and specializing in <span className="font-bold text-neo-red">full-stack development</span> with proven skills in 
-                <span className="font-bold text-neo-red">React.js, Node.js, PHP (Laravel), and REST API integration</span>
-
-                <span className="font-bold"> Experienced</span> in building responsive and <span className="font-bold">user-friendly web applications </span> 
-                through academic projects, <span className="font-bold">freelance work</span>, and prior <span className="font-bold">internships</span>.
+                I am a Software Engineer specializing in <span className="font-bold text-neo-red">full-stack development</span> across{' '}
+                <span className="font-bold text-neo-red">React.js, Node.js,</span> and <span className="font-bold text-neo-red">PHP (Laravel)</span> ecosystems. 
+                Proven capability in architecting robust <span className="font-bold">RESTful APIs</span>, implementing <span className="font-bold">scalable</span> design patterns, and managing relational databases.
               </p>
             </GlitchSlide>
 
             <GlitchSlide direction='right'>
                 <p>
-                Moreover, my comprehensive understanding of <span className="font-bold text-neo-red">both Front-End and Back-End architecture</span> allows me to be an effective 
-                <span className="font-bold"> collaborator</span> on a team. I am a dedicated and <span className="font-bold">quick learner</span>, 
-                eager to <span className="font-bold">contribute</span> to a fast-paced team, apply my technical knowledge, 
-                and deepen my skills in a <span className="font-bold">professional environment</span>.
+                Experienced in delivering <span className="font-bold">end-to-end web applications</span> from engineering <span className="font-bold text-neo-red">back-end logic </span> 
+                by resolving complex system constraints to designing <span className="font-bold text-neo-red">responsive front-end</span> interfaces. 
+                Focused on writing clean, maintainable, and <span className="font-bold">production-ready</span> code for dynamic technical environments.
               </p>
             </GlitchSlide>
 
+            <GlitchSlide direction='left'>
+              <p>
+                Beyond foundational architecture, my engineering focus extends to resolving persistent data validation constraints and optimizing complex business logic. 
+                Whether engineering secure workflows for digital transactional platforms or developing precise evaluation algorithms within e-learning environments, 
+                I prioritize data integrity and system reliability utilizing <span className="font-bold text-neo-red">PostgreSQL</span> and modern back-end frameworks.
+              </p>
+            </GlitchSlide>
           </div>
         </div>
       </div>

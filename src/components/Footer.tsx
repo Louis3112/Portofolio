@@ -8,7 +8,7 @@ const Footer = () => {
             font-mono text-xs font-bold uppercase text-neo-black 
             md:text-sm tracking-widest
         `}>
-          &copy; 2025 CORNELIUS L.N. // READY TO WORK
+          &copy; 2026 CORNELIUS L.N | ALL RIGHTS RESERVED
         </p>
 
       </div>
