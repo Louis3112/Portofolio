@@ -44,7 +44,7 @@ const getHoverShadow = (color?: string) => {
     case 'blue': return 'hover:drop-shadow-[12px_12px_0px_#2563EB]'; 
     case 'light-blue': return 'hover:drop-shadow-[12px_12px_0px_#38BDF8]';
     case 'dark-blue': return 'hover:drop-shadow-[12px_12px_0px_#1E3A8A]';
-    case 'green': return 'hover:drop-shadow-[12px_12px_0px_#27C93F]'; 
+    case 'green': return 'hover:drop-shadow-[12px_12px_0px_#16A34A]'; 
     case 'yellow': return 'hover:drop-shadow-[12px_12px_0px_#FFBD2E]'; 
     case 'orange': return 'hover:drop-shadow-[12px_12px_0px_#F97316]'; 
     case 'purple': return 'hover:drop-shadow-[12px_12px_0px_#9333EA]'; 
@@ -101,7 +101,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ data }) => {
                     {/* Status Info */}
                     <div className="mb-2 flex items-center justify-between">
                         <div className="font-mono text-lg font-bold text-neo-black">
-                            # project_name: <span className="text-neo-black">{data.title.toLowerCase()}</span>
+                            # project_name: <span className="text-neo-black">{data.title.toLowerCase().replaceAll(' ', '_')}</span>
                         </div>
                         <div className={`
                             font-mono text-sm font-bold 
@@ -159,11 +159,11 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ data }) => {
                                  </Button>
                                 <div className={`
                                   hidden group-hover:flex h-full w-full 
-                                  items-center justify-center gap-2 
+                                  items-center justify-center gap-2 text-center
                                   border-2 bg-gray-200 text-gray-400 border-neo-black px-6 py-2 
                                   font-mono font-bold text-md uppercase tracking-wider 
                                 `}>
-                                  <FaLock className="text-sm" /> NOT DEPLOYED YET
+                                  <FaLock className="text-sm" /> SITE NOT AVAILABLE FOR PUBLIC
                                 </div>
                                 </div>
                             </div>

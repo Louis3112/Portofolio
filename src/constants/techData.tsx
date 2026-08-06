@@ -33,8 +33,8 @@ import DBeaver from "../assets/techstack/other/dbeaver.png";
 import FigmaImg from "../assets/techstack/other/figma.png";
 import GeminiImg from "../assets/techstack/other/gemini.png";
 import GitImg from "../assets/techstack/other/git.png";
-import GithubImg from "../assets/techstack/other/github.png";
-import GitlabImg from "../assets/techstack/other/gitlab.png";
+import GitHubImg from "../assets/techstack/other/github.png";
+import GitLabImg from "../assets/techstack/other/gitlab.png";
 import GoogleCloudImg from "../assets/techstack/other/google-cloud.png"
 import NotionImg from "../assets/techstack/other/notion.png";
 import ObsidianImg from "../assets/techstack/other/obsidian.png";
@@ -107,8 +107,8 @@ const TECH_STACK_DATA = [
       { name: "Figma", src: FigmaImg, isImage: true },
       { name: "Gemini AI", src: GeminiImg, isImage: true },
       { name: "Git", src: GitImg, isImage: true },
-      { name: "GitHub", src: GithubImg, isImage: true },
-      { name: "GitLab", src: GitlabImg, isImage: true },
+      { name: "GitHub", src: GitHubImg, isImage: true },
+      { name: "GitLab", src: GitLabImg, isImage: true },
       { name: "Google Cloud", src: GoogleCloudImg, isImage: true },
       { name: "Notion", src: NotionImg, isImage: true },
       { name: "Obsidian", src: ObsidianImg, isImage: true },
