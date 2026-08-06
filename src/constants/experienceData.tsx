@@ -9,15 +9,15 @@ export const EXPERIENCE_DATA = [
   {
     id: "exp-07",
     role: "HCIS Developer Back-End Intern",
-    company: "PT CItilink Indonesia",
-    period: "Sept 2025 - Dec 2025",
+    company: "PT Citilink Indonesia", // Typo diperbaiki: CItilink -> Citilink
+    period: "Feb 2026 - July 2026",
     logo: CitilinkLogo,
     bgColor: "bg-green-600",
     color: "green",
     description: [
-      "Assist in developing back-end services for Human Capital Information Systems (HCIS) using PHP (Laravel)",
-      "Enhance system architecture by applying the repository-service pattern to improve code maintainability",
-      "Collaborate with front-end to integrate RESTful APIs into internal HR applications",
+      <>Engineered scalable <strong>Laravel</strong> back-end services with specified requirements for Human Capital Information Systems</>,
+      <>Implemented the <strong>repository-service pattern</strong> to optimize system architecture and maintainability</>,
+      <>Architected and deployed secure <strong>REST APIs</strong> to provide front-end collaboration</>,
     ],
     link:"https://www.linkedin.com/in/louisnath/details/experience/",
   },
@@ -31,9 +31,9 @@ export const EXPERIENCE_DATA = [
     bgColor: "bg-blue-500",
     color: "light-blue",
     description: [
-      "Leveraged full Google Workspace suite to maximize productivity.",
-      "Conducted local seminars to educate peers on AI literacy and applications.",
-      "Developed and executed social media campaigns about benefit and usage of Gemini."
+      <>Orchestrated local seminars and workshops to educate students on <strong>AI literacy</strong> and applications</>,
+      <>Leveraged full usage of <strong>Google Workspace</strong> suite to streamline execution and maximize productivity</>,
+      <>Developed and executed social media campaigns about benefit and usage of <strong>Google Gemini</strong></>
     ],
     link:"https://www.linkedin.com/in/louisnath/details/experience/",
   },
@@ -47,49 +47,15 @@ export const EXPERIENCE_DATA = [
     bgColor: "bg-blue-700",
     color: "blue",
     description: [
-      "Learned, developed and implemented full-stack JavaScript applications.",
-      "Developing scalable REST APIs using Hapi.js and integrating them with React.js front-end interfaces.",
-      "Collaborated in a team environment to successfully develop and deliver 'Ditanyain', our capstone project.",
-      "Received 'Best Capstone Project' for use case DC-02 LearnCheck! Formative Assessment Powered with AI."
+      <>Designed and developed responsive <strong>React.js</strong> front-end for final capstone project, 'Ditanyain'</>,
+      <>Collaborated in team environment to integrated “Ditanyain” with back-end <strong>REST APIs</strong></>,
+      <>Secured <strong>Top 12% Best Capstone Project</strong> and achieved the highest overall score in final judging</>
     ],
     link:"https://www.linkedin.com/in/louisnath/details/experience/",
   },
 
   {
     id: "exp-04",
-    role: "Practicum Co-Assistant",
-    company: "Surabaya State University",
-    period: "Aug 2024 - Nov 2025",
-    logo: UnesaLogo,
-    bgColor: "bg-yellow-500",
-    color: "yellow",
-    description: [
-      "Assist new students to understand core concepts of basic programming and data structure.",
-      "Authored detailed technical documentation and learning modules for C++ programming concepts.",
-      "Evaluate new students understanding and implementation skills using lecturer scoring system.",
-      "Assist lectures in creating learning modules."
-    ],
-    link:"https://www.linkedin.com/in/louisnath/details/experience/",
-  },
-
-  {
-    id: "exp-03",
-    role: "Software Development Laboratory Assistant",
-    company: "Surabaya State University",
-    period: "Aug 2024 - Nov 2025",
-    logo: UnesaLogo,
-    bgColor: "bg-yellow-500",
-    color: "yellow",
-    description: [
-      "Assist students to understand core concepts of software development.",
-      "Responsible for the condition and operation of lab equipment.",
-      "Assist managing laboratory schedule bookings."
-    ],
-    link:"https://www.linkedin.com/in/louisnath/details/experience/",
-  },
-
-  {
-    id: "exp-02",
     role: "Remote Intern Web Developer",
     company: "PT Ankara Gala Wisesa (Study First)",
     period: "June 2025 - Aug 2025",
@@ -97,15 +63,15 @@ export const EXPERIENCE_DATA = [
     bgColor: "bg-teal-600",
     color: "teal",
     description: [
-      "Built website pages using Elementor based on Figma or Visily wireframe design.",
-      "Structured responsive layouts to ensure optimal performance on tablets and smartphone.",
-      "Debugged and fixed issues to maintain smooth website functionality."
+      <>Transformed Figma or Visily wireframe into functional responsive website pages using <strong>Elementor</strong></>,
+      <>Structured responsive layouts to ensure optimal performance on mobile and table devices</>,
+      <>Diagnosed and resolved issues to maintain structural and platform stability</>
     ],
     link:"https://www.linkedin.com/in/louisnath/details/experience/",
   },
 
   {
-    id: "exp-01",
+    id: "exp-03",
     role: "Freelance Front-End Developer",
     company: "Himpunan Mahasiswa Teknik Perpipaan (PPNS)",
     period: "June 2025 - July 2025",
@@ -113,10 +79,42 @@ export const EXPERIENCE_DATA = [
     bgColor: "bg-orange-600",
     color: "orange",
     description: [
-      "Developed front-end interface of Pipeline Engineering Student Association's website.",
-      "Used React.js for front-end side, connected with Laravel for back-end side.",
-      "Team collaboration using github for version control and code integration."
+      <>Developed responsive <strong>React.js</strong> front-end for Pipeline Engineering Student Association portal</>,
+      <>Integrated React.js UI components seamlessly with <strong>Laravel</strong> backend <strong>REST APIs</strong></>,
+      <>Managed code integration and version control pipelines utilizing <strong>Git/GitHub</strong> workflows</>
     ],
     link:"https://www.linkedin.com/in/louisnath/details/experience/",
-  }
+  },
+
+  {
+    id: "exp-02",
+    role: "Practicum Co-Assistant",
+    company: "Surabaya State University",
+    period: "Aug 2024 - Nov 2025",
+    logo: UnesaLogo,
+    bgColor: "bg-yellow-500",
+    color: "yellow",
+    description: [
+      <>Mentored new students in learning core programming logic and data structure concepts using <strong>C++</strong></>,
+      <>Authored comprehensive technical documentation and <strong>C++</strong> learning modules for academic curriculum</>,
+      <>Evaluated new students understanding and implementation logic using strict academic grading metrics</>
+    ],
+    link:"https://www.linkedin.com/in/louisnath/details/experience/",
+  },
+
+  {
+    id: "exp-01",
+    role: "Software Development Laboratory Assistant",
+    company: "Surabaya State University",
+    period: "Aug 2024 - Nov 2025",
+    logo: UnesaLogo,
+    bgColor: "bg-yellow-500",
+    color: "yellow",
+    description: [
+      <>Facilitated practical software development sessions and provided direct technical troubleshooting</>,
+      <>Maintained and responsible for hardware and software environments to ensure optimal conditions</>,
+      <>Managed scheduling and operational workflows for laboratory management</>
+    ],
+    link:"https://www.linkedin.com/in/louisnath/details/experience/",
+  },
 ];

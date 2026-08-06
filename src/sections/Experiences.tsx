@@ -22,7 +22,7 @@ const Experiences = () => {
             <div className="absolute left-4 top-0 h-full w-1 -translate-x-1/2 bg-neo-black md:left-1/2"></div>
             
             {/* List Item */}
-            <div className="flex flex-col gap-8"> 
+            <div className="flex flex-col gap-6"> 
                 {EXPERIENCE_DATA.map((exp, index) => (
                   <Reveal 
                     key={exp.id} 

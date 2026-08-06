@@ -9,7 +9,7 @@ interface ExperienceItemProps {
     company: string;
     logo: string;
     period: string;
-    description: string[];
+    description: React.ReactNode[];
     link?: string;
     bgColor?: string;
     color?: string;
