@@ -26,6 +26,25 @@ export const PROJECT_DATA = [
     duration: "3 Months"
   },
   {
+    id: "proj-06",
+    title: "Ditanyain",
+    image: DitanyainImg,
+    status: "LIVE: ONLINE",
+    color: "blue",
+    description: [
+      "It is a formative assessments based on AI by managing questions and measuring student understanding.",
+      "Built as a collaborative team effort, this project serves as our final assignment for the Project Asah program led by Dicoding.",
+      "The project has won 12% 'Best Capstone Project' for use case DC-02 LearnCheck! Formative Assessment Powered with AI and reached highest judging score in Best Capstone Judging Session"
+    ],
+    techStack: ["TypeScript", "React", "Tailwind CSS", "Vite", "Shadcn.ui", "Express.js", "Node.js", "PostgreSQL", "Postman", "Swagger", "Github", "VSCode"],
+    webLink: "https://lms.ditanyain.web.id/",
+    githubLink: "https://github.com/Ditanyain",
+    start: "September 2025",
+    role: "Front-End Dev",
+    teamSize: 4,
+    duration: "3 Months"
+  },
+  {
     id: "proj-05",
     title: "HMTP PPNS Company Profile",
     image: HMTPImg,

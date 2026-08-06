@@ -7,6 +7,15 @@ import AWSLogo from "../assets/certifications/aws.png";
 
 export const CERTIFICATION_DATA = [
   {
+    id: "cert-27",
+    title: "Dicoding Developer Conference 2026",
+    issuer: "Dicoding Indonesia",
+    date: "April 2026",
+    credentialId: "-",
+    link: "https://www.linkedin.com/in/louisnath/details/certifications",
+    logo: DicodingLogo,
+  },
+  {
     id: "cert-26",
     title: "Belajar Fundamental Back-End dengan JavaScript",
     issuer: "Dicoding Indonesia",

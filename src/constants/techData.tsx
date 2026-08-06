@@ -1,6 +1,7 @@
 // BACKEND
 import DockerImg from "../assets/techstack/backend/docker.png";
 import HapiImg from "../assets/techstack/backend/hapi.png";
+import FirebaseImg from "../assets/techstack/backend/firebase.png";
 import LaravelImg from "../assets/techstack/backend/laravel.png";
 import MongoImg from "../assets/techstack/backend/mongodb.png";  
 import MySqlImg from "../assets/techstack/backend/mySQL.png";  
@@ -27,11 +28,13 @@ import WordpressImg from "../assets/techstack/frontend/wordPress.png";
 
 // other
 import AwsImg from "../assets/techstack/other/aws.png";
+import ClickUpImg from "../assets/techstack/other/clickup.png";
 import DBeaver from "../assets/techstack/other/dbeaver.png";
 import FigmaImg from "../assets/techstack/other/figma.png";
 import GeminiImg from "../assets/techstack/other/gemini.png";
 import GitImg from "../assets/techstack/other/git.png";
 import GithubImg from "../assets/techstack/other/github.png";
+import GitlabImg from "../assets/techstack/other/gitlab.png";
 import GoogleCloudImg from "../assets/techstack/other/google-cloud.png"
 import NotionImg from "../assets/techstack/other/notion.png";
 import ObsidianImg from "../assets/techstack/other/obsidian.png";
@@ -84,6 +87,7 @@ const TECH_STACK_DATA = [
     items: [
       { name: "Docker", src: DockerImg, isImage: true },
       { name: "Hapi.js", src: HapiImg, isImage: true },
+      { name: "Firebase Cloud Messaging", src: FirebaseImg, isImage: true },
       { name: "Laravel", src: LaravelImg, isImage: true },
       { name: "MongoDB", src: MongoImg, isImage: true},
       { name: "MySQL", src: MySqlImg, isImage: true },
@@ -98,11 +102,13 @@ const TECH_STACK_DATA = [
     category: "Tools & Others",
     items: [
       { name: "AWS", src: AwsImg, isImage: true },
+      { name: "ClickUp", src: ClickUpImg, isImage: true },
       { name: "Dbeaver", src: DBeaver, isImage: true },
       { name: "Figma", src: FigmaImg, isImage: true },
       { name: "Gemini AI", src: GeminiImg, isImage: true },
       { name: "Git", src: GitImg, isImage: true },
       { name: "GitHub", src: GithubImg, isImage: true },
+      { name: "GitLab", src: GitlabImg, isImage: true },
       { name: "Google Cloud", src: GoogleCloudImg, isImage: true },
       { name: "Notion", src: NotionImg, isImage: true },
       { name: "Obsidian", src: ObsidianImg, isImage: true },
